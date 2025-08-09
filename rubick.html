@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rubick — Волшебник</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #f8f8f8; }
+    header {
+      background: #222; color: white; padding: 10px;
+      display: flex; justify-content: center; gap: 20px;
+    }
+    header a {
+      color: white; text-decoration: none; padding: 5px 10px;
+    }
+    header a.active {
+      background: #2196f3; border-radius: 5px;
+    }
+    main { max-width: 900px; margin: 20px auto; padding: 0 10px; }
+    h1 { margin-bottom: 20px; }
+    .columns {
+      display: flex; gap: 20px;
+    }
+    .column {
+      flex: 1;
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      padding: 15px;
+    }
+    h2 { font-size: 18px; margin-bottom: 10px; }
+    ul { list-style: none; padding: 0; }
+    li { margin-bottom: 10px; }
+    a.spell {
+      display: inline-block; padding: 8px 12px; background: #f9f9f9;
+      border-radius: 5px; border: 1px solid #ddd; text-decoration: none; color: #222;
+    }
+    a.spell:hover { background: #f0f0f0; }
+       a.active-spell {
+      background: #ffe082;
+      border-color: #ffca28;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <a href="index.html">Awy — Паладин</a>
+  <a href="rubick.html" class="active">Rubick — Волшебник</a>
+  <a href="milim.html">Milim — Колдун</a>
+</header>
+
+<main>
+  <h1>Заклинания Rubick</h1>
+  <div class="columns">
+    <div class="column">
+      <h2>Мои заклинания</h2>
+      <ul>
+        <li><a class="spell" href="https://dnd.su/spells/140-chill-touch/">Леденящее Прикосновение Заговор Действие</a></li>
+        <li><a class="spell" href="https://dnd.su/spells/204-fire-bolt/">Огненный снаряд Заговор Действие</a></li>
+        <li><a class="spell" href="https://dnd.su/spells/63-poison-spray/">Ядовитые брызги Заговор Действие</a></li>
+        <li><a class="spell" href="https://dnd.su/spells/258-mending/">Починка Заговор</a></li>
+        <li><a class="spell" href="https://dnd.su/spells/457-toll-the-dead/">Погребельный звон Заговор Действие</a></li>
+        <li><a class="spell" href="https://dnd.su/spells/15-witch-bolt/">Ведьмин заряд 1 уровень Действие</a></li>
+        <li><a class="spell" href="https://dnd.su/spells/257-expeditious-retreat/">Поспешное отступление 1 уровень Бонусное Действие</a></li>
+        <li><a class="spell" href="https://dnd.su/spells/3022-frost-fingers/">Ледяные пальцы 1 уровень Действие</a></li>
+        <li><a class="spell" href="https://dnd.su/spells/210-identify/">Опознание 1 уровень</a></li>
+        <li><a class="spell" href="https://dnd.su/spells/352-misty-step/">Туманный шаг 2 уровень бонусное действие</a></li>
+        <li><a class="spell" href="https://dnd.su/spells/23-suggestion/">Внушение 2 уровень Действие</a></li>
+        <li><a class="spell" href="https://dnd.su/spells/3939-kinetic-jaunt/">Увлекательная прогулка 2 уровень Бонусное Действие</a></li>
+        <li><a class="spell" href="https://dnd.su/spells/356-hold-person/">Удержание личности 2 уровень Действие</a></li>
+        <li><a class="spell" href="https://dnd.su/spells/205-fireball/">Огненный шар 3 уровень Действие </a></li>
+        <li><a class="spell" href="https://dnd.su/spells/35-animate-dead/">Воставшиый труп 3 уровень</a></li>
+        <li><a class="spell" href="https://dnd.su/spells/277-vampiric-touch/">Прикосновение вампира 3 уровень Действие</a></li>
+        <li><a class="spell" href="https://dnd.su/homebrew/spells/633-explosion/">Взрыв 4 уровень Действие</a></li>
+
+      </ul>
+    </div>
+    <div class="column">
+      <h2>Заклинания из книги</h2>
+      <ul>
+        <li><a class="spell" href="https://dnd.su/spells/346-tensers-floating-disk/">Парящий диск Тензера 1 уровень</a></li>
+        <li><a class="spell" href="https://dnd.su/spells/184-unseen-servant/">Невидимый слуга 1 уровень</a></li>
+        <li><a class="spell" href="https://dnd.su/spells/147-ray-of-sickness/">Луч болезни 1 уровень</a></li>
+        <li><a class="spell" href="https://dnd.su/spells/134-crown-of-madness/">Корона Безумия 2 уровень</a></li>
+        <li><a class="spell" href="https://dnd.su/spells/41-gaseous-form/">Газообразная Форма 3 уровень</a></li>
+        <li><a class="spell active-spell" href="https://dnd.su/spells/472-catnap/">Дрема 3 уровень</a></li>
+        <li><a class="spell" href="https://dnd.su/spells/326-remove-curse/">Снятие Проклятий 3 уровень</a></li>
+        <li><a class="spell active-spell" href="https://dnd.su/homebrew/spells/1266-clinical-death/">Клиническая Смерть 4 уровень</a></li>
+        <li><a class="spell" href="https://dnd.su/homebrew/spells/7207-slovo-sily-muki/">Слово силы Муки 4 уровень</a></li>
+        <li><a class="spell active-spell" href="#">Понимание Языков</a></li>
+        <li><a class="spell" href="#">Темное Зрение</a></li>
+
+
+      </ul>
+    </div>
+  </div>
+</main>
+
+</body>
+</html>
